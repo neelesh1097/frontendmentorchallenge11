@@ -1,0 +1,65 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This ensures the container is centered vertically on the page */
+    background-color: #f4f4f4; /* Set a background color for the page */
+    background-color:  hsl(212, 45%, 89%);
+    font-family: 'Edu TAS Beginner', cursive;
+font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+.main{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   text-align: center;
+    height:500px;
+    width:350px;
+    background-color:#fff;
+    border-radius: 10px;
+    overflow: hidden;
+
+background-color: rgb(255, 255, 255);
+
+
+
+}
+.main-content{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.main-img{
+   
+    height: 320px;
+    width:300px;
+    border-radius: 10px;
+    object-position: center;
+
+}
+.attribution{
+    display: block;
+}
+.main-content p{
+    padding-top: 10px;
+    letter-spacing: 1px;
+   font-weight: 400;
+    color:hsl(220, 15%, 55%);
+}
+.main-content h3{
+font-weight: 700;
+color:hsl(218, 44%, 22%);
+}
